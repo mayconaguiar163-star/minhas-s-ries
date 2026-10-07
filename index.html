@@ -2,131 +2,89 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CineMaycon - Minhas Séries</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#141414" text="#ffffff" link="#e50914" vlink="#e50914">
+<body>
 
-  <!-- Cabeçalho -->
-  <table width="100%" border="0" cellspacing="0" cellpadding="20">
-    <tr>
-      <td align="center" bgcolor="#1f1f1f">
-        <font color="#e50914" size="7" face="Arial"><b>CINEMAYCON</b></font><br>
-        <font color="#aaaaaa" size="3" face="Arial">Espaço de Séries do Maycon | 16 anos</font>
-      </td>
-    </tr>
-  </table>
+  <div class="container">
+    <header>
+      <h1>CineMaycon</h1>
+      <p>Espaço de Séries do Maycon | 16 anos</p>
+    </header>
 
-  <br><br>
+    <main>
+      <!-- Séries Favoritas -->
+      <section>
+        <h2>Favoritas da Vida</h2>
+        <div class="grid-series">
+          <article class="card">
+            <span class="tag tag-favorita">Top 1</span>
+            <h3>Stranger Things</h3>
+            <p><strong>Gênero:</strong> Sci-Fi / Anos 80</p>
+            <p>Mistérios, monstros e muita nostalgia.</p>
+          </article>
 
-  <!-- Conteúdo Principal -->
-  <table width="80%" align="center" border="0" cellspacing="0" cellpadding="10">
-    <tr>
-      <td>
+          <article class="card">
+            <span class="tag tag-favorita">Top 2</span>
+            <h3>Breaking Bad</h3>
+            <p><strong>Gênero:</strong> Drama / Crime</p>
+            <p>Uma das melhores histórias já contadas na TV.</p>
+          </article>
 
-        <!-- Séries Favoritas -->
-        <font color="#e50914" size="5" face="Arial"><b>■ FAVORITAS DA VIDA</b></font>
-        <hr color="#e50914" size="2">
-        <br>
+          <article class="card">
+            <span class="tag tag-favorita">Top 3</span>
+            <h3>Cobra Kai</h3>
+            <p><strong>Gênero:</strong> Ação / Aventura</p>
+            <p>Karatê, rivalidade e muita comédia.</p>
+          </article>
+        </div>
+      </section>
 
-        <table width="100%" border="0" cellspacing="10" cellpadding="15">
-          <tr>
-            <td width="33%" bgcolor="#1f1f1f" valign="top">
-              <font color="#e50914" size="2" face="Arial"><b>[TOP 1]</b></font><br><br>
-              <font size="4" face="Arial"><b>Stranger Things</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Sci-Fi / Anos 80<br><br>
-                Mistérios, monstros e muita nostalgia.
-              </font>
-            </td>
-            <td width="33%" bgcolor="#1f1f1f" valign="top">
-              <font color="#e50914" size="2" face="Arial"><b>[TOP 2]</b></font><br><br>
-              <font size="4" face="Arial"><b>Breaking Bad</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Drama / Crime<br><br>
-                Uma das melhores histórias já contadas na TV.
-              </font>
-            </td>
-            <td width="33%" bgcolor="#1f1f1f" valign="top">
-              <font color="#e50914" size="2" face="Arial"><b>[TOP 3]</b></font><br><br>
-              <font size="4" face="Arial"><b>Cobra Kai</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Ação / Aventura<br><br>
-                Karatê, rivalidade e muita comédia.
-              </font>
-            </td>
-          </tr>
-        </table>
+      <!-- Assistindo Agora -->
+      <section>
+        <h2>Maratonando Agora</h2>
+        <div class="grid-series">
+          <article class="card">
+            <span class="tag tag-assistindo">Em andamento</span>
+            <h3>The Last of Us</h3>
+            <p><strong>Gênero:</strong> Pós-apocalíptico</p>
+            <p>Acompanhando a jornada de Joel e Ellie.</p>
+          </article>
 
-        <br><br>
+          <article class="card">
+            <span class="tag tag-assistindo">Em andamento</span>
+            <h3>One Piece (Live-Action)</h3>
+            <p><strong>Gênero:</strong> Aventura</p>
+            <p>Em busca do grande tesouro no mar.</p>
+          </article>
+        </div>
+      </section>
 
-        <!-- Maratonando Agora -->
-        <font color="#2196F3" size="5" face="Arial"><b>■ MARATONANDO AGORA</b></font>
-        <hr color="#2196F3" size="2">
-        <br>
+      <!-- Na Fila -->
+      <section>
+        <h2>Próximas da Lista</h2>
+        <div class="grid-series">
+          <article class="card">
+            <span class="tag tag-lista">Quero Ver</span>
+            <h3>Loki</h3>
+            <p><strong>Gênero:</strong> Marvel / Sci-Fi</p>
+          </article>
 
-        <table width="100%" border="0" cellspacing="10" cellpadding="15">
-          <tr>
-            <td width="50%" bgcolor="#1f1f1f" valign="top">
-              <font color="#2196F3" size="2" face="Arial"><b>[EM ANDAMENTO]</b></font><br><br>
-              <font size="4" face="Arial"><b>The Last of Us</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Pós-apocalíptico<br><br>
-                Acompanhando a jornada de Joel e Ellie.
-              </font>
-            </td>
-            <td width="50%" bgcolor="#1f1f1f" valign="top">
-              <font color="#2196F3" size="2" face="Arial"><b>[EM ANDAMENTO]</b></font><br><br>
-              <font size="4" face="Arial"><b>One Piece (Live-Action)</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Aventura<br><br>
-                Em busca do grande tesouro no mar.
-              </font>
-            </td>
-          </tr>
-        </table>
+          <article class="card">
+            <span class="tag tag-lista">Quero Ver</span>
+            <h3>Severance (Ruptura)</h3>
+            <p><strong>Gênero:</strong> Suspense / Sci-Fi</p>
+          </article>
+        </div>
+      </section>
+    </main>
 
-        <br><br>
-
-        <!-- Próximas da Lista -->
-        <font color="#ff9800" size="5" face="Arial"><b>■ PRÓXIMAS DA LISTA</b></font>
-        <hr color="#ff9800" size="2">
-        <br>
-
-        <table width="100%" border="0" cellspacing="10" cellpadding="15">
-          <tr>
-            <td width="50%" bgcolor="#1f1f1f" valign="top">
-              <font color="#ff9800" size="2" face="Arial"><b>[QUERO VER]</b></font><br><br>
-              <font size="4" face="Arial"><b>Loki</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Marvel / Sci-Fi
-              </font>
-            </td>
-            <td width="50%" bgcolor="#1f1f1f" valign="top">
-              <font color="#ff9800" size="2" face="Arial"><b>[QUERO VER]</b></font><br><br>
-              <font size="4" face="Arial"><b>Severance (Ruptura)</b></font><br><br>
-              <font size="2" face="Arial" color="#ccc">
-                <b>Gênero:</b> Suspense / Sci-Fi
-              </font>
-            </td>
-          </tr>
-        </table>
-
-      </td>
-    </tr>
-  </table>
-
-  <br><br>
-
-  <!-- Rodapé -->
-  <table width="100%" border="0" cellspacing="0" cellpadding="15">
-    <tr>
-      <td align="center" bgcolor="#1f1f1f">
-        <font color="#666666" size="2" face="Arial">
-          © Página de Séries do Maycon
-        </font>
-      </td>
-    </tr>
-  </table>
+    <footer>
+      <p>© Página de Séries do Maycon</p>
+    </footer>
+  </div>
 
 </body>
 </html>
